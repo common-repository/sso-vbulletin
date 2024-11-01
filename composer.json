@@ -1,0 +1,11 @@
+{
+  "require": {
+    "monolog/monolog": "1.23",
+    "barryvdh/composer-cleanup-plugin": "0.1.x@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "com\\extremeidea\\wordpress\\wordpress\\vbulletin\\sso\\": "classes/"
+    }
+  }
+}

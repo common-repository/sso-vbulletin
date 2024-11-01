@@ -1,0 +1,56 @@
+.wppb-success {
+    padding: 6px 0px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    background: #e7f7d3;
+    border: 1px solid #6c3;
+}
+
+.wppb-form-field > span {
+    display: block;
+    clear: both;
+    margin-left: 180px;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.wppb-user-forms ul li {
+    list-style: none;
+}
+
+.wppb-form-field input, 
+.wppb-form-field input[type="text"], 
+.wppb-form-field input[type="email"], 
+.wppb-form-field input#email[type="email"], 
+.wppb-form-field input[type="url"], 
+.wppb-form-field input[type="password"], 
+.wppb-form-field input[type="search"], 
+.wppb-form-field select, 
+.wppb-form-field textarea, 
+.wppb-checkboxes, 
+.wppb-radios, 
+#wppb-login-wrap .login-username input, 
+#wppb-login-wrap .login-password input {
+    width: 69.9%;
+}
+
+.wppb-register-user .wppb-field-error, .wppb-edit-user .wppb-field-error, #wppb-recover-password .wppb-field-error {
+    background-color: #FFDFDF;
+    border: 1px dotted #C89797;
+    margin-bottom: 6px !important;
+    padding: 6px !important;
+}
+
+.sso-hide-header #primary-nav, .sso-hide-header #account-section {
+    display: none;
+}
+
+.sso-email-message {
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+.sso-hide-header .sso-hide {
+    display: none;
+}
